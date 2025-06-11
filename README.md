@@ -21,7 +21,7 @@ Inicialmente se intentó crear la app usando `expo-cli`, pero esta herramienta e
 
 ## 🎯 Creación de la app con template de pestañas (tabs)
 
-Se seleccionó el template `tabs`, que incluye navegación entre pantallas y TypeScript listo para usar.
+Vamos a seleccionar el template `tabs`, que incluye navegación entre pantallas y TypeScript listo para usar.
 
 ```bash
 npx create-expo-app --template tabs dondeTere
@@ -89,5 +89,5 @@ Si quieres personalizar más el entorno, puedes agregar librerías como `react-n
 
 ## ✍️ Autor
 
-Creado por Rubén Velasco (Velasco-Dev)
-📅 Fecha de creación: 10/06/2025
+- Creado por Rubén Velasco (Velasco-Dev)
+- 📅 Fecha de creación: 10/06/2025
