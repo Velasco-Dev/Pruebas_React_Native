@@ -15,7 +15,7 @@ Este documento explica paso a paso cómo crear una aplicación utilizando **Reac
 
 Inicialmente se intentó crear la app usando `expo-cli`, pero esta herramienta está **obsoleta**. Por lo tanto, se decidió utilizar el nuevo comando recomendado por Expo.
 
-![Intento inicial](/Prueba_Donde_Tere/dondeTere/assets/images/git/1.png "Intento inicial")
+![Intento inicial](assets/images/1.png "Intento inicial")
 
 ---
 
@@ -36,7 +36,7 @@ Ok to proceed? (y) y
 Creating an Expo project using the tabs template.
 ```
 
-![Creación de Expo App](/Prueba_Donde_Tere/dondeTere/assets/images/git/2.png "Creación de Expo App")
+![Creación de Expo App](assets/images/2.png "Creación de Expo App")
 
 ---
 
@@ -48,7 +48,7 @@ Una vez creada la app, debes dirigirte a la carpeta generada (dondeTere, en este
 cd dondeTere
 ```
 
-![Creación de Expo App](/Prueba_Donde_Tere/dondeTere/assets/images/git/3.png "Creación de Expo App")
+![Creación de Expo App](assets/images/3.png "Creación de Expo App")
 
 ### ▶️ Para ejecutar la app:
 
@@ -63,7 +63,7 @@ Este comando abre **Expo DevTools** en la ventana de comanddos y permite:
 - Ver la app en un navegador web
 - Escanear el código QR con la app **Expo Go** en Android o iOS para probarla directamente en el celular
 
-![Ejecución de Expo DevTools](/Prueba_Donde_Tere/dondeTere/assets/images/git/4.png "Ejecución de Expo DevTools")
+![Ejecución de Expo DevTools](assets/images/4.png "Ejecución de Expo DevTools")
 
 ---
 
@@ -71,11 +71,11 @@ Este comando abre **Expo DevTools** en la ventana de comanddos y permite:
 
 ### En iOS:
 
-![Vista de la app en iOS](/Prueba_Donde_Tere/dondeTere/assets/images/git/5.png "Vista previa en iOS")
+![Vista de la app en iOS](assets/images/5.png "Vista previa en iOS")
 
 ### En la Web:
 
-![Vista de la app en navegador web](/Prueba_Donde_Tere/dondeTere/assets/images/git/6.png "Vista previa en web")
+![Vista de la app en navegador web](assets/images/6.png "Vista previa en web")
 
 ---
 
