@@ -11,6 +11,7 @@ import { ModalScreen } from '../modal';
 import { theme } from '@/constants/themes/Theme';
 
 import { MaterialIcons } from '@expo/vector-icons';
+import { COLORS } from '@/constants/themes/Colors';
 
 // You can explore the built-in icon families and icons on the web at https://icons.expo.fyi/
 function TabBarIcon(props: {
@@ -68,6 +69,19 @@ export default function TabLayout() {
             ),
           }}
         />
+
+        <Tabs.Screen
+          name="menu"
+          options={{
+            title: 'Menu',
+            tabBarIcon: ({ color }) => <MaterialIcons
+              size={28}
+              name="restaurant-menu"
+              color={color}
+            />,
+          }}
+        />
+
         <Tabs.Screen
           name="about-us"
           options={{

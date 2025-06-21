@@ -20,7 +20,7 @@ import { useEffect, useState } from 'react';
 import { COLORS } from '@/constants/themes/Colors';
 import { theme } from '@/constants/themes/Theme';
 import Footer from '@/components/common/Footer';
-export default function TabTwoScreen() {
+export default function AboutScreen() {
 
   const { width } = useWindowDimensions();
   const isWeb = Platform.OS === 'web';
@@ -35,12 +35,12 @@ export default function TabTwoScreen() {
     {
       icon: 'trending-up',
       title: 'Misión',
-      description: 'Ofrecer con amor y tradición lo mejor de la gastronomía Patoja, rescatando sabores auténticos que conectan generaciones, y brindando a propios y visitantes una experiencia cálida, familiar y llena de identidad cultural.'
+      description: 'Ofrecer con amor y tradición lo mejor de la gastronomía Patoja, rescatando sabores y saberes auténticos que conectan generaciones, brindando a propios y visitantes una experiencia cálida, familiar y llena de identidad cultural.'
     },
     {
       icon: 'people',
       title: 'Visión',
-      description: 'Ser reconocidos como un referente de la cocina típica Patoja en el Cauca, destacándonos por nuestra autenticidad, hospitalidad y compromiso con la preservación de las tradiciones culinarias del Departamento.'
+      description: 'Ser reconocidos como un referente de la cocina típica Patoja en el Cauca, destacándonos por nuestra autenticidad, hospitalidad y compromiso con la preservación de las tradiciones gastronómicas del Departamento.'
     }
   ];
 
